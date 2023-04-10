@@ -1,0 +1,22 @@
+.cd-series-button{
+    height: 100px;
+}
+
+.cd-series-button .cd-image{
+    height: 55%;
+    font-size: medium;
+}
+
+.cd-series-button .cd-image .short-name{
+    font-size: Large;
+}
+
+.cd-series-button .cd-image .display-name{
+    font-size: small;
+    overflow: hidden;
+}
+
+.cd-series-button .description{
+    height: 45%;
+    font-size: small;
+}

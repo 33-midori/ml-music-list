@@ -1,0 +1,19 @@
+.idol-title{
+    height:50px;
+}
+
+.belt-title{
+    width:10px;
+}
+
+.belt-vocal{
+    width:10px;
+}
+
+.music-name {
+    font-size: large;
+}
+
+.idol-btn:hover{
+    background: #e7e7e7;
+}

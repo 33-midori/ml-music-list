@@ -1,0 +1,49 @@
+<div class="m-auto container">
+    <div class="row mt-2">
+        <div class="col-1">
+            <a class="btn btn-primary">戻る</a>
+        </div>
+    </div>
+    <div class="album-list my-2" *ngFor="let album of this.cdSeriesMap[this.seriesName]">
+        <div class="bg-primary text-white py-3">
+            <div>
+                <h3 class="ms-3">{{album.albumName}}</h3>
+            </div>
+            <div>
+                <span class="ms-3">{{album.subName}}</span>
+            </div>
+        </div>
+        <div class="border shadow-sm bg-white border-1 my-2 px-2" *ngFor="let music of album.musicList">
+            <div class="">
+                <div class="row">
+                    <div class="col-6 my-auto fw-bolder">
+                        <span class="me-2">{{music.trackNum}}.</span>
+                        <span>{{music.musicName}}</span>
+                    </div>
+                    <div class="col-6 ">
+                        <div class="me-0 text-end">
+                            <a class="btn btn-youtube text-white my-1 px-1" href="{{music.youtubeUrl}}" target="_blank">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+                <span class="row border-top"></span>
+                <div class="row">
+                    <div *ngIf="music.vocalList[0].id != ''; else elseBlock">
+                        <span>歌唱メンバー</span>
+                        <div class="col-12 text-start">
+                            <a class="btn btn-sm mx-1 mb-2 mt-1 rounded-pill btn-{{idol.colorClass}}" *ngFor="let idol of music.vocalList">{{idol.name}}</a>
+                        </div>
+                    </div>
+                    <ng-template #elseBlock>
+                        <div>
+                            <span>歌唱メンバー</span>
+                            <div class="col-12 text-start">
+                                <a class="btn btn-sm mx-1 mb-2 mt-1 rounded-pill">{{music.unitName}}</a>
+                            </div>
+                        </div>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

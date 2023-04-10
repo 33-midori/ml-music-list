@@ -1,0 +1,1010 @@
+[
+    {
+        "id": 1,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP01",
+        "albumName": "LIVE THE@TER PERFORMANCE 01",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 01",
+        "subName": "Thank You!",
+        "unitName": ""
+    },
+    {
+        "id": 2,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP02",
+        "albumName": "LIVE THE@TER PERFORMANCE 02",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 02",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 3,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP03",
+        "albumName": "LIVE THE@TER PERFORMANCE 03",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 03",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 4,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP04",
+        "albumName": "LIVE THE@TER PERFORMANCE 04",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 04",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 5,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP05",
+        "albumName": "LIVE THE@TER PERFORMANCE 05",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 05",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 6,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP06",
+        "albumName": "LIVE THE@TER PERFORMANCE 06",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 06",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 7,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP07",
+        "albumName": "LIVE THE@TER PERFORMANCE 07",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 07",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 8,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP08",
+        "albumName": "LIVE THE@TER PERFORMANCE 08",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 08",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 9,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP09",
+        "albumName": "LIVE THE@TER PERFORMANCE 09",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 09",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 10,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP10",
+        "albumName": "LIVE THE@TER PERFORMANCE 10",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 10",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 11,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP11",
+        "albumName": "LIVE THE@TER PERFORMANCE 11",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 11",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 12,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP12",
+        "albumName": "LIVE THE@TER PERFORMANCE 12",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 12",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 13,
+        "cdseriesPath": "ltp",
+        "shortName": "LTP13",
+        "albumName": "LIVE THE@TER PERFORMANCE 13",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE 13",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 14,
+        "cdseriesPath": "lth",
+        "shortName": "LTH01",
+        "albumName": "LIVE THE@TER HARMONY 01",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 01",
+        "subName": "レジェンドデイズ",
+        "unitName": "レジェンドデイズ"
+    },
+    {
+        "id": 15,
+        "cdseriesPath": "lth",
+        "shortName": "LTH02",
+        "albumName": "LIVE THE@TER HARMONY 02",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 02",
+        "subName": "乙女ストーム！ ",
+        "unitName": "乙女ストーム！ "
+    },
+    {
+        "id": 16,
+        "cdseriesPath": "lth",
+        "shortName": "LTH03",
+        "albumName": "LIVE THE@TER HARMONY 03",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 03",
+        "subName": "クレシェンドブルー ",
+        "unitName": "クレシェンドブルー "
+    },
+    {
+        "id": 17,
+        "cdseriesPath": "lth",
+        "shortName": "LTH04",
+        "albumName": "LIVE THE@TER HARMONY 04",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 04",
+        "subName": "エターナルハーモニー",
+        "unitName": "エターナルハーモニー"
+    },
+    {
+        "id": 18,
+        "cdseriesPath": "lth",
+        "shortName": "LTH05",
+        "albumName": "LIVE THE@TER HARMONY 05",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 05",
+        "subName": "リコッタ",
+        "unitName": "リコッタ"
+    },
+    {
+        "id": 19,
+        "cdseriesPath": "lth",
+        "shortName": "LTH06",
+        "albumName": "LIVE THE@TER HARMONY 06",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 06",
+        "subName": "灼熱少女",
+        "unitName": "灼熱少女"
+    },
+    {
+        "id": 20,
+        "cdseriesPath": "lth",
+        "shortName": "LTH07",
+        "albumName": "LIVE THE@TER HARMONY 07",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 07",
+        "subName": "BIRTH",
+        "unitName": "BIRTH"
+    },
+    {
+        "id": 21,
+        "cdseriesPath": "lth",
+        "shortName": "LTH08",
+        "albumName": "LIVE THE@TER HARMONY 08",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 08",
+        "subName": "ミックスナッツ",
+        "unitName": "ミックスナッツ"
+    },
+    {
+        "id": 22,
+        "cdseriesPath": "lth",
+        "shortName": "LTH09",
+        "albumName": "LIVE THE@TER HARMONY 09",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 09",
+        "subName": "ミルキーウェイ",
+        "unitName": "ミルキーウェイ"
+    },
+    {
+        "id": 23,
+        "cdseriesPath": "lth",
+        "shortName": "LTH10",
+        "albumName": "LIVE THE@TER HARMONY 10",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY 10",
+        "subName": "ARRIVE",
+        "unitName": "ARRIVE"
+    },
+    {
+        "id": 24,
+        "cdseriesPath": "ltd",
+        "shortName": "LTD01",
+        "albumName": "LIVE THE@TER DREAMERS 01",
+        "fullName": "THE IDOLM@STER LIVE THE@TER DREAMERS 01 Dreaming!",
+        "subName": "Dreaming!",
+        "unitName": ""
+    },
+    {
+        "id": 25,
+        "cdseriesPath": "ltd",
+        "shortName": "LTD02",
+        "albumName": "LIVE THE@TER DREAMERS 02",
+        "fullName": "THE IDOLM@STER LIVE THE@TER DREAMERS 02",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 26,
+        "cdseriesPath": "ltd",
+        "shortName": "LTD03",
+        "albumName": "LIVE THE@TER DREAMERS 03",
+        "fullName": "THE IDOLM@STER LIVE THE@TER DREAMERS 03",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 27,
+        "cdseriesPath": "ltd",
+        "shortName": "LTD04",
+        "albumName": "LIVE THE@TER DREAMERS 04",
+        "fullName": "THE IDOLM@STER LIVE THE@TER DREAMERS 04",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 28,
+        "cdseriesPath": "ltd",
+        "shortName": "LTD05",
+        "albumName": "LIVE THE@TER DREAMERS 05",
+        "fullName": "THE IDOLM@STER LIVE THE@TER DREAMERS 05",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 29,
+        "cdseriesPath": "ltd",
+        "shortName": "LTD06",
+        "albumName": "LIVE THE@TER DREAMERS 06",
+        "fullName": "THE IDOLM@STER LIVE THE@TER DREAMERS 06",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 30,
+        "cdseriesPath": "ta",
+        "shortName": "TA01",
+        "albumName": "THE@TER ACTIVITIES 01",
+        "fullName": "THE IDOLM@STER THE@TER ACTIVITIES 01",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 31,
+        "cdseriesPath": "ta",
+        "shortName": "TA02",
+        "albumName": "THE@TER ACTIVITIES 02",
+        "fullName": "THE IDOLM@STER THE@TER ACTIVITIES 02",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 32,
+        "cdseriesPath": "ta",
+        "shortName": "TA03",
+        "albumName": "THE@TER ACTIVITIES 03",
+        "fullName": "THE IDOLM@STER THE@TER ACTIVITIES 03",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 33,
+        "cdseriesPath": "ltf",
+        "shortName": "LTF01",
+        "albumName": "LIVE THE@TER FORWARD 01",
+        "fullName": "THE IDOLM@STER LIVE THE@TER FORWARD 01 Sunshine Rhythm",
+        "subName": "Sunshine Rhythm",
+        "unitName": ""
+    },
+    {
+        "id": 34,
+        "cdseriesPath": "ltf",
+        "shortName": "LTF02",
+        "albumName": "LIVE THE@TER FORWARD 02",
+        "fullName": "THE IDOLM@STER LIVE THE@TER FORWARD 02 BlueMoon Harmony",
+        "subName": "BlueMoon Harmony",
+        "unitName": ""
+    },
+    {
+        "id": 35,
+        "cdseriesPath": "ltf",
+        "shortName": "LTF03",
+        "albumName": "LIVE THE@TER FORWARD 03",
+        "fullName": "THE IDOLM@STER LIVE THE@TER FORWARD 03 Starlight Melody",
+        "subName": "Starlight Melody",
+        "unitName": ""
+    },
+    {
+        "id": 36,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG01",
+        "albumName": "MILLION THE@TER GENERATION 01",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 01 Brand New Theater!",
+        "subName": "Brand New Theater!",
+        "unitName": ""
+    },
+    {
+        "id": 37,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG02",
+        "albumName": "MILLION THE@TER GENERATION 02",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 02 フェアリースターズ",
+        "subName": " フェアリースターズ",
+        "unitName": ""
+    },
+    {
+        "id": 38,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG03",
+        "albumName": "MILLION THE@TER GENERATION 03",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 03 エンジェルスターズ",
+        "subName": "エンジェルスターズ",
+        "unitName": ""
+    },
+    {
+        "id": 39,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG04",
+        "albumName": "MILLION THE@TER GENERATION 04",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 04 プリンセススターズ",
+        "subName": "プリンセススターズ",
+        "unitName": ""
+    },
+    {
+        "id": 40,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG05",
+        "albumName": "MILLION THE@TER GENERATION 05",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 05 夜想令嬢 -GRAC&E NOCTURNE-",
+        "subName": "夜想令嬢 -GRAC&E NOCTURNE-",
+        "unitName": "夜想令嬢 -GRAC&E NOCTURNE-"
+    },
+    {
+        "id": 41,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG06",
+        "albumName": "MILLION THE@TER GENERATION 06",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 06 Cleasky",
+        "subName": "Cleasky",
+        "unitName": "Cleasky"
+    },
+    {
+        "id": 42,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG07",
+        "albumName": "MILLION THE@TER GENERATION 07",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 07 トゥインクルリズム",
+        "subName": "トゥインクルリズム",
+        "unitName": "トゥインクルリズム"
+    },
+    {
+        "id": 43,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG08",
+        "albumName": "MILLION THE@TER GENERATION 08",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 08 EScape",
+        "subName": "Escape",
+        "unitName": "Escape"
+    },
+    {
+        "id": 44,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG09",
+        "albumName": "MILLION THE@TER GENERATION 09",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 09 4Luxury",
+        "subName": "4Luxury",
+        "unitName": "4Luxury"
+    },
+    {
+        "id": 45,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG10",
+        "albumName": "MILLION THE@TER GENERATION 10",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 10 閃光☆HANABI団",
+        "subName": "閃光☆HANABI団",
+        "unitName": "閃光☆HANABI団"
+    },
+    {
+        "id": 46,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG11",
+        "albumName": "MILLION THE@TER GENERATION 11",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 11 UNION!!",
+        "subName": "UNION!!",
+        "unitName": "UNION!!"
+    },
+    {
+        "id": 47,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG12",
+        "albumName": "MILLION THE@TER GENERATION 12",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 12 D/Zeal",
+        "subName": "D/Zeal",
+        "unitName": "D/Zeal"
+    },
+    {
+        "id": 48,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG13",
+        "albumName": "MILLION THE@TER GENERATION 13",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 13 りるきゃん",
+        "subName": "りるきゃん",
+        "unitName": "りるきゃん"
+    },
+    {
+        "id": 49,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG14",
+        "albumName": "MILLION THE@TER GENERATION 14",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 14 Charlotte・Charlotte",
+        "subName": "Charlotte・Charlotte",
+        "unitName": "Charlotte・Charlotte"
+    },
+    {
+        "id": 50,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG15",
+        "albumName": "MILLION THE@TER GENERATION 15",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 15 Jelly PoP Beans",
+        "subName": "Jelly PoP Beans",
+        "unitName": "Jelly PoP Beans"
+    },
+    {
+        "id": 51,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG16",
+        "albumName": "MILLION THE@TER GENERATION 16",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 16 ピコピコプラネッツ",
+        "subName": "ピコピコプラネッツ",
+        "unitName": "ピコピコプラネッツ"
+    },
+    {
+        "id": 52,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG17",
+        "albumName": "MILLION THE@TER GENERATION 17",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 17 STAR ELEMENTS",
+        "subName": "STAR ELEMENTS",
+        "unitName": "STAR ELEMENTS"
+    },
+    {
+        "id": 53,
+        "cdseriesPath": "mtg",
+        "shortName": "MTG18",
+        "albumName": "MILLION THE@TER GENERATION 18",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION 18 765PRO ALLSTARS",
+        "subName": "765PRO ALLSTARS",
+        "unitName": ""
+    },
+    {
+        "id": 54,
+        "cdseriesPath": "ms",
+        "shortName": "MS01",
+        "albumName": "M@STER SPARKLE 01",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE 01",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 55,
+        "cdseriesPath": "ms",
+        "shortName": "MS02",
+        "albumName": "M@STER SPARKLE 02",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE 02",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 56,
+        "cdseriesPath": "ms",
+        "shortName": "MS03",
+        "albumName": "M@STER SPARKLE 03",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE 03",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 57,
+        "cdseriesPath": "ms",
+        "shortName": "MS04",
+        "albumName": "M@STER SPARKLE 04",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE 04",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 58,
+        "cdseriesPath": "ms",
+        "shortName": "MS05",
+        "albumName": "M@STER SPARKLE 05",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE 05",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 59,
+        "cdseriesPath": "ms",
+        "shortName": "MS06",
+        "albumName": "M@STER SPARKLE 06",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE 06",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 60,
+        "cdseriesPath": "ms",
+        "shortName": "MS07",
+        "albumName": "M@STER SPARKLE 07",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE 07",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 61,
+        "cdseriesPath": "ms",
+        "shortName": "MS08",
+        "albumName": "M@STER SPARKLE 08",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE 08",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 62,
+        "cdseriesPath": "tb",
+        "shortName": "TB01",
+        "albumName": "THE@TER BOOST 01",
+        "fullName": "THE IDOLM@STER THE@TER BOOST 01",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 63,
+        "cdseriesPath": "tb",
+        "shortName": "TB02",
+        "albumName": "THE@TER BOOST 02",
+        "fullName": "THE IDOLM@STER THE@TER BOOST 02",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 64,
+        "cdseriesPath": "tb",
+        "shortName": "TB03",
+        "albumName": "THE@TER BOOST 03",
+        "fullName": "THE IDOLM@STER THE@TER BOOST 03",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 65,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW01",
+        "albumName": "MILLION THE@TER WAVE 01",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 01 Flyers!!!",
+        "subName": "Flyers!!!",
+        "unitName": ""
+    },
+    {
+        "id": 66,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW02",
+        "albumName": "MILLION THE@TER WAVE 02",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 02 Chrono-Lexica",
+        "subName": "Chrono-Lexica",
+        "unitName": "Chrono-Lexica"
+    },
+    {
+        "id": 67,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW03",
+        "albumName": "MILLION THE@TER WAVE 03",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 03 Xs",
+        "subName": "Xs",
+        "unitName": "Xs"
+    },
+    {
+        "id": 68,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW04",
+        "albumName": "MILLION THE@TER WAVE 04",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 04 Sherry 'n Cherry",
+        "subName": "Sherry 'n Cherry",
+        "unitName": "Sherry 'n Cherry"
+    },
+    {
+        "id": 69,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW05",
+        "albumName": "MILLION THE@TER WAVE 05",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 05 ARCANA",
+        "subName": "ARCANA",
+        "unitName": "ARCANA"
+    },
+    {
+        "id": 70,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW06",
+        "albumName": "MILLION THE@TER WAVE 06",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 06 花咲夜",
+        "subName": "花咲夜",
+        "unitName": "花咲夜"
+    },
+    {
+        "id": 71,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW07",
+        "albumName": "MILLION THE@TER WAVE 07",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 07 Jus-2-Mint",
+        "subName": "Jus-2-Mint",
+        "unitName": "Jus-2-Mint"
+    },
+    {
+        "id": 72,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW08",
+        "albumName": "MILLION THE@TER WAVE 08",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 08 miraclesonic★expassion",
+        "subName": "miraclesonic★expassion",
+        "unitName": "miraclesonic★expassion"
+    },
+    {
+        "id": 73,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW09",
+        "albumName": "MILLION THE@TER WAVE 09",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 09 Fleuranges",
+        "subName": "Fleuranges",
+        "unitName": "Fleuranges"
+    },
+    {
+        "id": 74,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW10",
+        "albumName": "MILLION THE@TER WAVE 10",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 10 Glow Map",
+        "subName": "Glow Map",
+        "unitName": "Glow Map"
+    },
+    {
+        "id": 75,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW11",
+        "albumName": "MILLION THE@TER WAVE 11",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 11 オペラセリア・煌輝座",
+        "subName": "オペラセリア・煌輝座",
+        "unitName": "オペラセリア・煌輝座"
+    },
+    {
+        "id": 76,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW12",
+        "albumName": "MILLION THE@TER WAVE 12",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 12 ダイヤモンドダイバー",
+        "subName": "ダイヤモンドダイバー",
+        "unitName": "ダイヤモンドダイバー"
+    },
+    {
+        "id": 77,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW13",
+        "albumName": "MILLION THE@TER WAVE 13",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 13 TIntMe!",
+        "subName": "TIntMe!",
+        "unitName": "TIntMe!"
+    },
+    {
+        "id": 78,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW14",
+        "albumName": "MILLION THE@TER WAVE 14",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 14 TRICK&TREAT",
+        "subName": "TRICK&TREAT",
+        "unitName": "TRICK&TREAT"
+    },
+    {
+        "id": 79,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW15",
+        "albumName": "MILLION THE@TER WAVE 15",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 15 chicAAmor",
+        "subName": "chicAAmor",
+        "unitName": "chicAAmor"
+    },
+    {
+        "id": 80,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW16",
+        "albumName": "MILLION THE@TER WAVE 16",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 16 ≡君彩≡",
+        "subName": "≡君彩≡",
+        "unitName": "≡君彩≡"
+    },
+    {
+        "id": 81,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW17",
+        "albumName": "MILLION THE@TER WAVE 17",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 17 ARMooo",
+        "subName": "ARMooo",
+        "unitName": "ARMooo"
+    },
+    {
+        "id": 82,
+        "cdseriesPath": "mtw",
+        "shortName": "MTW18",
+        "albumName": "MILLION THE@TER WAVE 18",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE 18 ストロベリーポップムーン",
+        "subName": "ストロベリーポップムーン",
+        "unitName": "ストロベリーポップムーン"
+    },
+    {
+        "id": 83,
+        "cdseriesPath": "zg",
+        "shortName": "ZG",
+        "albumName": "ZWEIGLANZ",
+        "fullName": "THE IDOLM@STER MILLION LIVE! ZWEIGLANZ アライアンス・スターダスト",
+        "subName": "アライアンス・スターダスト",
+        "unitName": "ZWEIGLANZ"
+    },
+    {
+        "id": 84,
+        "cdseriesPath": "tc",
+        "shortName": "TC01",
+        "albumName": "THE@TER CHALLENGE 01",
+        "fullName": "THE IDOLM@STER THE@TER CHALLENGE 01",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 85,
+        "cdseriesPath": "tc",
+        "shortName": "TC02",
+        "albumName": "THE@TER CHALLENGE 02",
+        "fullName": "THE IDOLM@STER THE@TER CHALLENGE 02",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 86,
+        "cdseriesPath": "tc",
+        "shortName": "TC03",
+        "albumName": "THE@TER CHALLENGE 03",
+        "fullName": "THE IDOLM@STER THE@TER CHALLENGE 03",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 87,
+        "cdseriesPath": "mts",
+        "shortName": "MTS01",
+        "albumName": "MILLION THE@TER SEASON 01",
+        "fullName": "THE IDOLM@STER MILLION THE@TER SEASON BRIGHT DIAMOND",
+        "subName": "BRIGHT DIAMOND",
+        "unitName": ""
+    },
+    {
+        "id": 88,
+        "cdseriesPath": "mts",
+        "shortName": "MTS02",
+        "albumName": "MILLION THE@TER SEASON 02",
+        "fullName": "THE IDOLM@STER MILLION THE@TER SEASON CLEVER CLOVER",
+        "subName": "CLEVER CLOVER",
+        "unitName": ""
+    },
+    {
+        "id": 89,
+        "cdseriesPath": "mts",
+        "shortName": "MTS03",
+        "albumName": "MILLION THE@TER SEASON 03",
+        "fullName": "THE IDOLM@STER MILLION THE@TER SEASON Harmony 4 You",
+        "subName": "Harmony 4 You",
+        "unitName": ""
+    },
+    {
+        "id": 90,
+        "cdseriesPath": "mts",
+        "shortName": "MTS04",
+        "albumName": "MILLION THE@TER SEASON 04",
+        "fullName": "THE IDOLM@STER MILLION THE@TER SEASON LOVERS HEART",
+        "subName": "LOVERS HEART",
+        "unitName": ""
+    },
+    {
+        "id": 91,
+        "cdseriesPath": "mts",
+        "shortName": "MTS05",
+        "albumName": "MILLION THE@TER SEASON 05",
+        "fullName": "THE IDOLM@STER MILLION THE@TER SEASON SHADE OF SPADE",
+        "subName": "SHADE OF SPADE",
+        "unitName": ""
+    },
+    {
+        "id": 92,
+        "cdseriesPath": "mts",
+        "shortName": "MTS06",
+        "albumName": "MILLION THE@TER SEASON 06",
+        "fullName": "THE IDOLM@STER MILLION THE@TER SEASON 夢にかけるRainbow",
+        "subName": "夢にかけるRainbow",
+        "unitName": ""
+    },
+    {
+        "id": 93,
+        "cdseriesPath": "milijo",
+        "shortName": "ミリ女",
+        "albumName": "聖ミリオン女学園",
+        "fullName": "THE IDOLM@STER MILLION LIVE! 聖ミリオン女学園",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 94,
+        "cdseriesPath": "voyager",
+        "shortName": "VOY@GER",
+        "albumName": "VOY@GER",
+        "fullName": "VOY@GER",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 95,
+        "cdseriesPath": "nandodemo",
+        "shortName": "なんどでも笑おう",
+        "albumName": "なんどでも笑おう",
+        "fullName": "なんどでも笑おう",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 96,
+        "cdseriesPath": "ms2",
+        "shortName": "MS201",
+        "albumName": "M@STER SPARKLE2 01",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 01",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 97,
+        "cdseriesPath": "ms2",
+        "shortName": "MS202",
+        "albumName": "M@STER SPARKLE2 02",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 02",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 98,
+        "cdseriesPath": "ms2",
+        "shortName": "MS203",
+        "albumName": "M@STER SPARKLE2 03",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 03",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 99,
+        "cdseriesPath": "ms2",
+        "shortName": "MS204",
+        "albumName": "M@STER SPARKLE2 04",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 04",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 100,
+        "cdseriesPath": "ms2",
+        "shortName": "MS205",
+        "albumName": "M@STER SPARKLE2 05",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 05",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 101,
+        "cdseriesPath": "ms2",
+        "shortName": "MS206",
+        "albumName": "M@STER SPARKLE2 06",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 06",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 102,
+        "cdseriesPath": "ms2",
+        "shortName": "MS207",
+        "albumName": "M@STER SPARKLE2 07",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 07",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 103,
+        "cdseriesPath": "ms2",
+        "shortName": "MS208",
+        "albumName": "M@STER SPARKLE2 08",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 08",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 104,
+        "cdseriesPath": "ms2",
+        "shortName": "MS209",
+        "albumName": "M@STER SPARKLE2 09",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 09",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 105,
+        "cdseriesPath": "ms2",
+        "shortName": "MS210",
+        "albumName": "M@STER SPARKLE2 10",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2 10",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 106,
+        "cdseriesPath": "mtv",
+        "shortName": "MTV01",
+        "albumName": "MILLION THE@TER VARIETY 01",
+        "fullName": "THE IDOLM@STER MILLION THE@TER VARIETY 01",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 107,
+        "cdseriesPath": "mtv",
+        "shortName": "MTV02",
+        "albumName": "MILLION THE@TER VARIETY 02",
+        "fullName": "THE IDOLM@STER MILLION THE@TER VARIETY 02",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 108,
+        "cdseriesPath": "other",
+        "shortName": "ミリラジ01",
+        "albumName": "U・N・M・E・I ライブ ",
+        "fullName": "U・N・M・E・I ライブ",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 109,
+        "cdseriesPath": "other",
+        "shortName": "ミリラジ02",
+        "albumName": "ターンオンタイム!",
+        "fullName": "ターンオンタイム!",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 110,
+        "cdseriesPath": "other",
+        "shortName": "ミリラジ03",
+        "albumName": "ENDLESS TOUR",
+        "fullName": "ENDLESS TOUR",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 111,
+        "cdseriesPath": "other",
+        "shortName": "ゲッサン",
+        "albumName": "ゲッサン",
+        "fullName": "ゲッサン",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 112,
+        "cdseriesPath": "mts",
+        "shortName": "MTS FINAL",
+        "albumName": "MILLION THE@TER SEASON FINAL",
+        "fullName": "THE IDOLM@STER MILLION THE@TER SEASON FINAL",
+        "subName": "",
+        "unitName": ""
+    }
+]

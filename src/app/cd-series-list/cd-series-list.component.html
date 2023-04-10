@@ -1,0 +1,40 @@
+<div class="m-auto pt-4">
+    <h5 class="border-bottom border-3 border-primary pb-1">アイドルマスターミリオンライブ! 楽曲リンク</h5>
+    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" class="w-100">
+        <mat-tab class="w-100" label="アイドル"> 
+            <div class="container-fluid my-2 tab-body">
+                <div class="row">
+                    <div class="col-6 col-md-3 py-1 px-1 px-md-2 m-0" *ngFor="let idol of this.idolList">
+                        <div class="row m-0" *ngIf="idol.production == '765'">
+                            <div class="w-100 col-12 py-0 ps-0 pe-0 pe-sm-auto shadow-sm btn btn-white idol-btn border border-{{idol['colorClass']}} " 
+                            [routerLink]="['/idol',idol.id]">
+                                <div class="belt-idol bg-{{idol.colorClass}} h-100 float-start"></div>
+                                <div class="row h-100">
+                                    <div class="col-3 my-auto px-md-auto px-0">
+                                        <img src="assets/image/idol/idol_{{('000' + idol.id).slice(-3)}}.png" class="idol-img">
+                                    </div>
+                                    <div class="col-9 text-start my-auto ps-2 px-md-1 px-0 align-middle"><span class="align-middle">{{idol['name']}}</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mat-tab>
+        <!--
+        <mat-tab class="w-100" label="CD"> 
+            <div class="container-fluid my-2 tab-body">
+                <div class="row">
+                    <div class="col-4 col-md-4 py-1 m-0" *ngFor="let album of this.cdseriesList">
+                        <div class="row m-0">
+                            <div class="col-12 p-0">
+                                <app-cdseries-button [path]='album["path"]' [displayName]='album["displayName"]' [shortName]='album["shortName"]' [fullName]='album["fullName"]'></app-cdseries-button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mat-tab>
+        -->
+    </mat-tab-group>
+</div>

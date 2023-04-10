@@ -1,0 +1,74 @@
+<div class="m-auto container">
+    <div class="row mt-2">
+        <div class="col-12">
+            <a class="btn btn-primary" [routerLink]="['/index']">戻る</a>
+        </div>
+    </div>
+    <div class="album-list my-2">
+        <div class="idol-title row row-cols-auto px-0 pt-0 pb-1 m-0 border-bottom border-3 border-{{this.idol.colorClass}}">
+            <div class="col ms-0 ps-0 my-auto float-start">
+                <h4 class="m-0">{{this.idol.name}}</h4>
+            </div>
+            <a class="col btn btn-google my-1 px-1 me-2" href="https://www.google.co.jp/search?q={{this.idol.name}}" target="_blank">Google検索</a>
+        </div>
+        <ng-container *ngFor="let music of this.idol.musicList; index as musicIndex">
+            <h5 *ngIf="this.unitTypeStartNumList.includes(musicIndex)" class="border-bottom border-2 pt-4 w-25 border-{{this.idol.colorClass}} pb-1">
+                <ng-container *ngIf="music.unitType==1">ソロ</ng-container>
+                <ng-container *ngIf="music.unitType==2">ユニット</ng-container>
+                <ng-container *ngIf="music.unitType==3">全体</ng-container>
+            </h5>
+            <div class="border shadow-sm bg-white border-1 my-2 px-2">
+                <div class="">
+                    <div class="d-flex flex-row py-1">
+                        <div class="">
+                            <span class="">{{music.albumName}}</span>
+                        </div>
+                        <div class="px-2">
+                            <a class="btn btn-google btn-sm py-0 " href="https://www.google.co.jp/search?q={{music.albumName}}" target="_blank">
+                                Google検索
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 my-auto fw-bolder">
+                        <span class="music-name">{{music.musicName}}</span>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <div class="me-0 text-start text-md-end">
+                            <a class="btn btn-google border my-1 px-1 me-2" href="https://www.google.co.jp/search?q={{music.musicName}}" target="_blank">Google検索</a>
+                            <a class="btn btn-youtube text-white my-1 px-1" href="{{music.youtubeURL}}" target="_blank">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+                <ng-container *ngIf="music.unitType != 1">
+                    <div class="row border-top w-100 mx-auto"></div>
+                    <div class="row py-1">
+                        <div>
+                            <div (click)="this.clickVocalListPullDown($event,musicIndex)">
+                                <i *ngIf="!this.vocalShowState[musicIndex]" class="bi bi-chevron-right"></i>
+                                <i *ngIf="this.vocalShowState[musicIndex]" class="bi bi-chevron-down"></i>
+                                <span class="">歌唱メンバー</span>
+                            </div>
+                            <ng-container *ngIf="this.vocalShowState[musicIndex]">
+                                <div class="row text-start p-auto m-0">
+                                    <ng-container *ngFor="let vocal_id of music.vocalList">
+                                        <div class="btn idol-btn col-5 col-md-2 border border-{{this.idolMap[vocal_id].colorClass}} border-1 p-0 me-1 mb-1 text-start" [routerLink]="['/idol',this.idolMap[vocal_id].id]">
+                                            <div class="belt-vocal bg-{{this.idolMap[vocal_id].colorClass}} h-100 float-start"></div>
+                                            <div class="h-100 my-auto float-start d-flex align-items-center">
+                                                <img src="assets/image/idol/idol_{{('000' + this.idolMap[vocal_id].id).slice(-3)}}.png" class="idol-img">
+                                            </div>
+                                            <span class="">
+                                                {{this.idolMap[vocal_id].shortName}}
+                                            </span>
+                                        </div>
+                                    </ng-container>
+                                </div>
+                            </ng-container>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </ng-container>
+    </div>
+</div>

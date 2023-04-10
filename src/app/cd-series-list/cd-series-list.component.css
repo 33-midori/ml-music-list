@@ -1,0 +1,20 @@
+.tab-body{
+    height: auto;
+}
+
+.btn.idol-btn {
+    height: 50px;
+}
+
+.belt-idol {
+    width:15px;
+}
+
+.btn.idol-btn:hover{
+    background: #e7e7e7;
+}
+
+img.idol-img {
+    zoom:2.0;
+    image-rendering: pixelated;
+}

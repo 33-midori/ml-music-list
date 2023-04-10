@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "sortId": 1,
+        "shortName": "LTP",
+        "displayName": "LIVE THE@TER PERFORMANCE",
+        "fullName": "THE IDOLM@STER LIVE THE@TER PERFORMANCE",
+        "path": "ltp",
+        "seriesClass": "series-ltp",
+        "seriesIconPath": "series-ltp.svg"
+    },
+    {
+        "id": 2,
+        "sortId": 2,
+        "shortName": "LTH",
+        "displayName": "LIVE THE@TER HARMONY",
+        "fullName": "THE IDOLM@STER LIVE THE@TER HARMONY",
+        "path": "lth",
+        "seriesClass": "series-lth",
+        "seriesIconPath": "series-lth.svg"
+    },
+    {
+        "id": 3,
+        "sortId": 3,
+        "shortName": "LTD",
+        "displayName": "LIVE THE@TER DREAMERS",
+        "fullName": "THE IDOLM@STER LIVE THE@TER DREAMERS",
+        "path": "ltd",
+        "seriesClass": "series-ltd",
+        "seriesIconPath": "series-ltd.svg"
+    },
+    {
+        "id": 4,
+        "sortId": 4,
+        "shortName": "TA",
+        "displayName": "THE@TER ACTIVITIES",
+        "fullName": "THE IDOLM@STER THE@TER ACTIVITIES",
+        "path": "ta",
+        "seriesClass": "series-ta",
+        "seriesIconPath": "series-ta.svg"
+    },
+    {
+        "id": 5,
+        "sortId": 5,
+        "shortName": "LTF",
+        "displayName": "LIVE THE@TER FORWARD",
+        "fullName": "THE IDOLM@STER LIVE THE@TER FORWARD",
+        "path": "ltf",
+        "seriesClass": "series-ltf",
+        "seriesIconPath": "series-ltf.svg"
+    },
+    {
+        "id": 6,
+        "sortId": 6,
+        "shortName": "MTG",
+        "displayName": "MILLION THE@TER GENERATION",
+        "fullName": "THE IDOLM@STER MILLION THE@TER GENERATION",
+        "path": "mtg",
+        "seriesClass": "series-mtg",
+        "seriesIconPath": "series-mtg.svg"
+    },
+    {
+        "id": 7,
+        "sortId": 7,
+        "shortName": "MS",
+        "displayName": "M@STER SPARKLE",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE",
+        "path": "ms",
+        "seriesClass": "series-ms",
+        "seriesIconPath": "series-ms.svg"
+    },
+    {
+        "id": 8,
+        "sortId": 8,
+        "shortName": "TB",
+        "displayName": "THE@TER BOOST",
+        "fullName": "THE IDOLM@STER THE@TER BOOST",
+        "path": "tb",
+        "seriesClass": "series-tb",
+        "seriesIconPath": "series-tb.svg"
+    },
+    {
+        "id": 9,
+        "sortId": 9,
+        "shortName": "MTW",
+        "displayName": "MILLION THE@TER WAVE",
+        "fullName": "THE IDOLM@STER MILLION THE@TER WAVE",
+        "path": "mtw",
+        "seriesClass": "series-mtw",
+        "seriesIconPath": "series-mtw.svg"
+    },
+    {
+        "id": 10,
+        "sortId": 10,
+        "shortName": "ZG",
+        "displayName": "ZWEIGLANZ",
+        "fullName": "THE IDOLM@STER MILLION LIVE! ZWEIGLANZ",
+        "path": "zg",
+        "seriesClass": "series-zg",
+        "seriesIconPath": "series-zg.svg"
+    },
+    {
+        "id": 11,
+        "sortId": 11,
+        "shortName": "TC",
+        "displayName": "THE@TER CHALLENGE",
+        "fullName": "THE IDOLM@STER THE@TER CHALLENGE",
+        "path": "tc",
+        "seriesClass": "series-tc",
+        "seriesIconPath": "series-tc.svg"
+    },
+    {
+        "id": 12,
+        "sortId": 12,
+        "shortName": "MTS",
+        "displayName": "MILLION THE@TER SEASON",
+        "fullName": "THE IDOLM@STER MILLION THE@TER SEASON",
+        "path": "mts",
+        "seriesClass": "series-mts",
+        "seriesIconPath": "series-mts.svg"
+    },
+    {
+        "id": 13,
+        "sortId": 13,
+        "shortName": "ミリ女",
+        "displayName": "聖ミリオン女学園",
+        "fullName": "THE IDOLM@STER MILLION LIVE! 聖ミリオン女学園",
+        "path": "milijo",
+        "seriesClass": "series-milijo",
+        "seriesIconPath": "series-milijo.svg"
+    },
+    {
+        "id": 14,
+        "sortId": 14,
+        "shortName": "VOY@GER",
+        "displayName": "VOY@GER",
+        "fullName": "THE IDOLM@STERシリーズ イメージソング2021「VOY@GER」 【ミリオンライブ！盤】",
+        "path": "voyager",
+        "seriesClass": "series-voyager",
+        "seriesIconPath": "series-voyager.svg"
+    },
+    {
+        "id": 15,
+        "sortId": 15,
+        "shortName": "なんどでも笑おう",
+        "displayName": "なんどでも笑おう",
+        "fullName": "THE IDOLM@STERシリーズ15周年記念曲「なんどでも笑おう」 【ミリオンライブ！盤】",
+        "path": "nandodemo",
+        "seriesClass": "series-nandodemo",
+        "seriesIconPath": "series-nandodemo.svg"
+    },
+    {
+        "id": 16,
+        "sortId": 16,
+        "shortName": "MS2",
+        "displayName": "M@STER SPARKLE2",
+        "fullName": "THE IDOLM@STER MILLION LIVE! M@STER SPARKLE2",
+        "path": "ms2",
+        "seriesClass": "series-ms2",
+        "seriesIconPath": "series-ms2.svg"
+    },
+    {
+        "id": 17,
+        "sortId": 17,
+        "shortName": "MTV",
+        "displayName": "MILLION THE@TER VARIETY",
+        "fullName": "THE IDOLM@STER MILLION THE@TER VARIETY ",
+        "path": "mtv",
+        "seriesClass": "series-mtv",
+        "seriesIconPath": "series-mtv.svg"
+    },
+    {
+        "id": 18,
+        "sortId": 18,
+        "shortName": "other",
+        "displayName": "その他",
+        "fullName": "その他",
+        "path": "other",
+        "seriesClass": "series-other",
+        "seriesIconPath": "series-other.svg"
+    }
+]

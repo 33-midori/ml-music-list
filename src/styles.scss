@@ -1,0 +1,105 @@
+
+@use '@angular/material' as mat;
+@use './assets/palette/palette' as palette;
+
+@include mat.core();
+$custom-primary: mat.define-palette(palette.$custom-primary-palette);
+$custom-theme: mat.define-light-theme((
+ color: (
+   primary: $custom-primary,
+   accent: $custom-primary
+ ),
+ density: 0,
+));
+@include mat.all-component-themes($custom-theme);
+
+@import "bootstrap/scss/functions.scss";
+@import "bootstrap/scss/variables.scss";
+@import "bootstrap/scss/mixins.scss";
+
+$custom-colors:(
+
+    "primary": rgb(10, 31, 90),
+    "custom-white": rgb(255, 255, 255),
+
+    "ltp": pink,
+    "lth":orange,
+    "ltd":orange,
+    "ta":orange,
+    "ltf":orange,
+    "mtg":orange,
+    "ms":orange,
+    "tb":orange,
+    "mtw":orange,
+    "zg":orange,
+    "tc":orange,
+    "mts":orange,
+    "milijo":orange,
+    "voyager":orange,
+    "nandodemo":orange,
+    "ms2":orange,
+    "mtv":orange,
+
+    "youtube":#F60000,
+    "google": #d6d6d6,
+
+    "idol-001": #e22b30,
+    "idol-002": #2743d2,
+    "idol-003": #b4e04b,
+    "idol-004": #d3dde9,
+    "idol-005": #f39939,
+    "idol-006": #515558,
+    "idol-007": #fd99e1,
+    "idol-008": #a6126a,
+    "idol-009": #01a860,
+    "idol-010": #9238be,
+    "idol-011": #ffe43f,
+    "idol-012": #ffe43f,
+    "idol-013": #01adb9,
+    "idol-014": #ea5b76,
+    "idol-015": #6495cf,
+    "idol-016": #fed552,
+    "idol-017": #92cfbb,
+    "idol-018": #9bce92,
+    "idol-019": #58a6dc,
+    "idol-020": #454341,
+    "idol-021": #5abfb7,
+    "idol-022": #ed90ba,
+    "idol-023": #eb613f,
+    "idol-024": #7e6ca8,
+    "idol-025": #fff03c,
+    "idol-026": #c7b83c,
+    "idol-027": #7f6575,
+    "idol-028": #b54461,
+    "idol-029": #e9739b,
+    "idol-030": #f7e78e,
+    "idol-031": #bee3e3,
+    "idol-032": #554171,
+    "idol-033": #afa690,
+    "idol-034": #e25a9b,
+    "idol-035": #d1342c,
+    "idol-036": #f5ad3b,
+    "idol-037": #788bc5,
+    "idol-038": #f19557,
+    "idol-039": #f1becb,
+    "idol-040": #ee762e,
+    "idol-041": #7278a8,
+    "idol-042": #d7a96b,
+    "idol-043": #eceb70,
+    "idol-044": #99b7dc,
+    "idol-045": #b63b40,
+    "idol-046": #f19591,
+    "idol-047": #aeb49c,
+    "idol-048": #6bb6b0,
+    "idol-049": #efb864,
+    "idol-050": #d7385f,
+    "idol-051": #ebe1ff,
+    "idol-052": #274079,
+    "idol-201": #e6f9e5,
+    "idol-202": #512aa3,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons";
