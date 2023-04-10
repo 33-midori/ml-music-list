@@ -6,7 +6,7 @@
     </div>
     <div class="album-list my-2">
         <div class="idol-title row row-cols-auto px-0 pt-0 pb-1 m-0 border-bottom border-3 border-{{this.idol.colorClass}}">
-            <div class="col ms-0 ps-0 my-auto float-start">
+            <div class="col ms-0 ps-0 my-auto d-flex">
                 <h4 class="m-0">{{this.idol.name}}</h4>
             </div>
             <a class="col btn btn-google my-1 px-1 me-2" href="https://www.google.co.jp/search?q={{this.idol.name}}" target="_blank">Google検索</a>
@@ -53,14 +53,14 @@
                             <ng-container *ngIf="this.vocalShowState[musicIndex]">
                                 <div class="row text-start p-auto m-0">
                                     <ng-container *ngFor="let vocal_id of music.vocalList">
-                                        <div class="btn idol-btn col-5 col-md-2 border border-{{this.idolMap[vocal_id].colorClass}} border-1 p-0 me-1 mb-1 text-start" [routerLink]="['/idol',this.idolMap[vocal_id].id]">
-                                            <div class="belt-vocal bg-{{this.idolMap[vocal_id].colorClass}} h-100 float-start"></div>
-                                            <div class="h-100 my-auto float-start d-flex align-items-center">
+                                        <div class="btn idol-btn col-5 col-md-2 d-flex flex-row border border-{{this.idolMap[vocal_id].colorClass}} border-1 p-0 me-1 mb-1 text-start" [routerLink]="['/idol',this.idolMap[vocal_id].id]">
+                                            <div class="belt-vocal bg-{{this.idolMap[vocal_id].colorClass}} h-100"></div>
+                                            <div class="h-100 my-auto d-flex align-items-center">
                                                 <img src="assets/image/idol/idol_{{('000' + this.idolMap[vocal_id].id).slice(-3)}}.png" class="idol-img">
                                             </div>
-                                            <span class="">
+                                            <div class="">
                                                 {{this.idolMap[vocal_id].shortName}}
-                                            </span>
+                                            </div>
                                         </div>
                                     </ng-container>
                                 </div>
