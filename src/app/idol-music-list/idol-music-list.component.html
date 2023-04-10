@@ -12,7 +12,7 @@
             <a class="col btn btn-google my-1 px-1 me-2" href="https://www.google.co.jp/search?q={{this.idol.name}}" target="_blank">Google検索</a>
         </div>
         <ng-container *ngFor="let music of this.idol.musicList; index as musicIndex">
-            <h5 *ngIf="this.unitTypeStartNumList.includes(musicIndex)" class="border-bottom border-2 pt-4 w-25 border-{{this.idol.colorClass}} pb-1">
+            <h5 *ngIf="this.unitTypeStartNumList.includes(musicIndex)" class="border-bottom border-2 pt-4 w-50 border-{{this.idol.colorClass}} pb-1">
                 <ng-container *ngIf="music.unitType==1">ソロ</ng-container>
                 <ng-container *ngIf="music.unitType==2">ユニット</ng-container>
                 <ng-container *ngIf="music.unitType==3">全体</ng-container>
@@ -24,8 +24,8 @@
                             <span class="">{{music.albumName}}</span>
                         </div>
                         <div class="px-2">
-                            <a class="btn btn-google btn-sm py-0 " href="https://www.google.co.jp/search?q={{music.albumName}}" target="_blank">
-                                Google検索
+                            <a class="text-dark py-0 " href="https://www.google.co.jp/search?q={{music.albumName}}" target="_blank">
+                                <i class="bi bi-search"></i>
                             </a>
                         </div>
                     </div>
