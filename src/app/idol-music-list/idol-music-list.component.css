@@ -8,6 +8,8 @@
 
 .belt-vocal{
     width:10px;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem
 }
 
 .music-name {
@@ -16,4 +18,8 @@
 
 .idol-btn:hover{
     background: #e7e7e7;
+}
+
+img.idol-img {
+    image-rendering: pixelated;
 }

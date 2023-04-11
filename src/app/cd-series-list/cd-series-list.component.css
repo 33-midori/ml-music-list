@@ -8,6 +8,8 @@
 
 .belt-idol {
     width:15px;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem
 }
 
 .btn.idol-btn:hover{
