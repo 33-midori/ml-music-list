@@ -5,17 +5,18 @@
         </div>
     </div>
     <div class="album-list my-2">
-        <div class="idol-title row row-cols-auto px-0 pt-0 pb-1 m-0 border-bottom border-3 border-{{this.idol.colorClass}}">
-            <div class="col ms-0 ps-0 my-auto d-flex">
-                <h4 class="m-0">{{this.idol.name}}</h4>
+        <div class="idol-title d-flex flex-row px-0 pt-0 pb-1 m-0 border-bottom border-3 border-{{this.idol.colorClass}}">
+            <div class="ms-0 ps-0 my-auto">
+                <h4 class="m-0 text-nowrap">{{this.idol.name}}</h4>
             </div>
-            <a class="col btn btn-google my-1 px-1 me-2" href="https://www.google.co.jp/search?q={{this.idol.name}}" target="_blank">Google検索</a>
+            <a class="btn btn-google my-1 ms-2 px-1 me-2 text-nowrap" href="https://www.google.co.jp/search?q={{this.idol.name}}" target="_blank">Google検索</a>
         </div>
         <ng-container *ngFor="let music of this.idol.musicList; index as musicIndex">
             <h5 *ngIf="this.unitTypeStartNumList.includes(musicIndex)" class="border-bottom border-2 pt-4 w-50 border-{{this.idol.colorClass}} pb-1">
                 <ng-container *ngIf="music.unitType==1">ソロ</ng-container>
                 <ng-container *ngIf="music.unitType==2">ユニット</ng-container>
-                <ng-container *ngIf="music.unitType==3">全体</ng-container>
+                <ng-container *ngIf="music.unitType==3">グループ</ng-container>
+                <ng-container *ngIf="music.unitType==4">全体</ng-container>
             </h5>
             <div class="border shadow-sm bg-white border-1 my-2 px-2">
                 <div class="">
@@ -31,8 +32,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 my-auto fw-bolder">
-                        <span class="music-name">{{music.musicName}}</span>
+                    <div class="col-12 col-md-6 my-auto">
+                        <span class="music-name fw-bolder">{{music.musicName}}</span>
+                        <div class="sub-music-name">{{music.subMusicName}}</div>
                     </div>
                     <div class="col-12 col-md-6 ">
                         <div class="me-0 text-start text-md-end">

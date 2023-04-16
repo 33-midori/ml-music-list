@@ -47,7 +47,7 @@ export class IdolMusicListComponent implements OnInit{
     this.unitTypeStartNumList = [];
     this.unitTypeStartNumList.push(0);
     for(let i = 0; i< idol.musicList.length; i++){
-      const showFlag = idol.musicList[i].unitType == 2 ? true : false;
+      const showFlag = idol.musicList[i].unitType != 4 ? true : false;
       this.vocalShowState.push(showFlag);
       if(i != 0 && idol.musicList[i].unitType != idol.musicList[i-1].unitType){
         this.unitTypeStartNumList.push(i);
