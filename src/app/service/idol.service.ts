@@ -6,23 +6,19 @@ import IdolJson from './data/idol.json';
 )
 
 export class IdolService {
-
+  private idolMap:any = {};
   constructor() { 
-
+    for(const idol of IdolJson){
+      this.idolMap[idol.id.toString()] = idol;
+    }
   }
 
   getIdolList(){
     return IdolJson;
   }
 
-  getIdolMapKeyId(){
-    let idolMap:any = {};
-
-    for(const idol of IdolJson){
-      idolMap[idol.id.toString()] = idol;
-    }
-
-    return idolMap;
+  getIdolMap(){
+    return this.idolMap;
   }
 
 }

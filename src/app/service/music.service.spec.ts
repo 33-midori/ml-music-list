@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { CdSeriesMapService } from './cd-series-map.service';
+import { MusicService } from './music.service';
 
-describe('CdSeriesMapService', () => {
-  let service: CdSeriesMapService;
+describe('MusicService', () => {
+  let service: MusicService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(CdSeriesMapService);
+    service = TestBed.inject(MusicService);
   });
 
   it('should be created', () => {

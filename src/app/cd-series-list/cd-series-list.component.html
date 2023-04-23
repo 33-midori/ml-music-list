@@ -1,13 +1,15 @@
 <div class="m-auto pt-4">
     <h5 class="border-bottom border-3 border-primary pb-1">アイドルマスターミリオンライブ! 楽曲リンク</h5>
-    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" class="w-100">
+    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" class="w-100"
+    [selectedIndex]="this.tabIndexState"
+    (selectedTabChange)="changeTab($event)">
         <mat-tab class="w-100" label="アイドル"> 
             <div class="container-fluid my-2 tab-body">
                 <div class="row">
                     <div class="col-6 col-md-3 py-1 px-1 px-md-2 m-0" *ngFor="let idol of this.idolList">
                         <div class="row m-0" *ngIf="idol.production == '765'">
                             <div class="d-flex flex-row w-100 col-12 py-0 ps-0 pe-0 pe-sm-auto shadow-sm btn btn-white idol-btn border border-{{idol['colorClass']}} " 
-                            [routerLink]="['/idol',idol.id]">
+                            [routerLink]="['/idol',idol.id]" >
                                 <div class="belt-idol bg-{{idol.colorClass}} h-100"></div>
                                 <div class="d-flex flex-row h-100">
                                     <div class="my-auto px-md-auto px-0">
@@ -21,20 +23,22 @@
                 </div>
             </div>
         </mat-tab>
-        <!--
         <mat-tab class="w-100" label="CD"> 
             <div class="container-fluid my-2 tab-body">
                 <div class="row">
-                    <div class="col-4 col-md-4 py-1 m-0" *ngFor="let album of this.cdseriesList">
+                    <div class="col-6 col-md-4 py-1 m-0" *ngFor="let album of this.cdseriesList">
                         <div class="row m-0">
                             <div class="col-12 p-0">
-                                <app-cdseries-button [path]='album["path"]' [displayName]='album["displayName"]' [shortName]='album["shortName"]' [fullName]='album["fullName"]'></app-cdseries-button>
+                                <app-cdseries-button [path]='album["path"]'
+                                [displayName]='album["displayName"]'
+                                [shortName]='album["shortName"]'
+                                [fullName]='album["fullName"]'
+                                [description]='album["displayDescription"]'></app-cdseries-button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </mat-tab>
-        -->
     </mat-tab-group>
 </div>

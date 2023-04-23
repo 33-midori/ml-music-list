@@ -1,17 +1,23 @@
 import { Injectable } from '@angular/core';
-
 import AlbumJson from './data/album.json';
-import { IdolService } from './idol.service';
 
 @Injectable(
   {providedIn: 'root'}
 )
 export class AlbumService {
-
-
-  constructor(private idolService:IdolService) { 
+  private albumMap:any = {}
+  constructor() { 
+    for (const album of AlbumJson){
+      this.albumMap[album.id.toString()] = album;
+    }
   }
-  getAlbumMap(){
+  getAlbumList(){
     return AlbumJson;
+  }
+  getAlbumMapById(){
+    return this.albumMap;
+  }
+  getAlbumMapByAlbumId(){
+    return this.albumMap;
   }
 }

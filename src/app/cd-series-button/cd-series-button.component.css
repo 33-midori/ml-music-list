@@ -1,14 +1,14 @@
 .cd-series-button{
-    height: 100px;
+    height: 150px;
 }
 
 .cd-series-button .cd-image{
-    height: 55%;
+    height: 40%;
     font-size: medium;
 }
 
 .cd-series-button .cd-image .short-name{
-    font-size: Large;
+    font-size: x-Large;
 }
 
 .cd-series-button .cd-image .display-name{
@@ -17,6 +17,9 @@
 }
 
 .cd-series-button .description{
-    height: 45%;
+    background-color: rgb(243, 243, 243);
+    height: 60%;
     font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

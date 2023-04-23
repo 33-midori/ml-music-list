@@ -9,11 +9,16 @@ const routes: Routes = [
   { path: '', component: BodyComponent,
     children:[
       { path: 'index', component: CdSeriesListComponent},
-      { path: 'idol/:idolId', component: IdolMusicListComponent},
-      { path: 'cd-series/:cdseriesId', component: AlbumListComponent},
       { path: '', redirectTo: 'index', pathMatch: 'full' },
     ]},
-    
+  { path: 'idol/:idolId', component: BodyComponent,
+    children:[
+      { path: '', component: IdolMusicListComponent},
+    ]},
+  { path: 'cd-series/:cdseriesId', component: BodyComponent,
+    children:[
+      { path: '', component: AlbumListComponent},
+    ]},
   { path: '', redirectTo: '', pathMatch: 'full' },
   { path: '**', redirectTo: 'index', pathMatch: 'full' },
 ];

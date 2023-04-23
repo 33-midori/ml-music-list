@@ -10,13 +10,14 @@ export class CdSeriesButtonComponent implements OnInit{
   @Input() displayName?: String;
   @Input() shortName?: String;
   @Input() fullName?: String;
+  @Input() description?: string;
   
   path_before: String;
   constructor() { 
-    this.path_before = "";
+    this.path_before = "/cd-series";
   }
 
   ngOnInit(): void {
-    this.path_before = "/cd-series";
+    
   }
 }

@@ -1,3 +1,7 @@
 .album-list{
     min-width: 320px;
 }
+
+.music-name {
+    font-size: larger;
+}
