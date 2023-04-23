@@ -5,3 +5,13 @@
 .music-name {
     font-size: larger;
 }
+
+img.idol-img {
+    image-rendering: pixelated;
+}
+
+.belt-vocal{
+    width:10px;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem
+}
