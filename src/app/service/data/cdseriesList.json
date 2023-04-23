@@ -154,6 +154,17 @@
         "seriesIconPath": "series-mtv.svg"
     },
     {
+        "id": 18,
+        "sortId": 18,
+        "shortName": "漫画特典楽曲",
+        "displayName": "",
+        "displayDescription": "漫画特典楽曲はこちら",
+        "fullName": "その他",
+        "path": "other",
+        "seriesClass": "series-other",
+        "seriesIconPath": "series-other.svg"
+    },
+    {
         "id": 20,
         "sortId": 20,
         "shortName": "単体CD",

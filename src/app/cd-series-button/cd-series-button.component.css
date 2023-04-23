@@ -18,8 +18,22 @@
 
 .cd-series-button .description{
     background-color: rgb(243, 243, 243);
+    color: rgb(77, 77, 77);
     height: 60%;
     font-size: small;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 767px) {
+    .cd-series-button{
+        height: 210px;
+    }
+    .cd-series-button .cd-image{
+        height: 40%;
+    }
+    
+    .cd-series-button .description{
+        height: 60%;
+    }
 }
