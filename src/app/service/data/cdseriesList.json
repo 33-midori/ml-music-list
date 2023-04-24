@@ -99,17 +99,6 @@
         "seriesIconPath": "series-mtw.svg"
     },
     {
-        "id": 10,
-        "sortId": 10,
-        "shortName": "ZG",
-        "displayName": "ZWEIGLANZ",
-        "displayDescription": "961プロダクションのアイドル2名によるデュオユニットのCD",
-        "fullName": "THE IDOLM@STER MILLION LIVE! ZWEIGLANZ",
-        "path": "zg",
-        "seriesClass": "series-zg",
-        "seriesIconPath": "series-zg.svg"
-    },
-    {
         "id": 11,
         "sortId": 11,
         "shortName": "TC",
