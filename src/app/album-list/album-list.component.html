@@ -7,28 +7,53 @@
     <div class="album-list my-2" *ngFor="let album of this.albumList">
         <div class="idol-title d-flex flex-row px-0 pt-2 pb-0 m-0 border-bottom border-3 border-primary">
             <div class="ms-0 ps-0 my-auto">
-                <span class="m-0 text-nowrap fs-5 fw-bold">{{album.albumName}}</span>
+                <span class="m-0 album-name fw-bold">{{album.albumName}}</span>
                 <p class="p-0 m-0">{{album.subName}}</p>
             </div>
-            <a class="text-dark my-1 ms-2 px-1 me-2 text-nowrap" href="https://www.google.co.jp/search?q={{album.albumName}}" target="_blank">
+            <a class="text-dark my-1 ms-2 px-1 me-2 " href="https://www.google.co.jp/search?q={{album.albumName}}" target="_blank">
                 <i class="bi bi-search"></i>
             </a>
         </div>
         <div class="border shadow-sm bg-white border-1 my-2 px-2" *ngFor="let music of albumMusicMap[album.id.toString()]">
             <div class="">
                 <div class="row">
-                    <div class="col-12 col-md-6 my-auto py-2">
+                    <div class="col-12 my-auto py-2">
                         <span class="music-name me-2 fw-bolder">{{music.trackNum}}.</span>
                         <span class="music-name fw-bolder">{{music.musicName}}</span>
+                        <a class="text-dark py-0 ms-2" href="https://www.google.co.jp/search?q={{this.music.musicName}}" target="_blank">
+                            <i class="bi bi-search"></i>
+                        </a>
+                        <div class="sub-music-name">{{this.music.subMusicName}}</div>
                     </div>
-                    <div class="col-12 col-md-6 ">
-                        <div class="me-0 text-start text-md-end">
-                            <a class="btn btn-google border my-1 px-1 me-2" href="https://www.google.co.jp/search?q={{music.musicName}}" target="_blank">Google検索</a>
-                            <a class="btn btn-youtube text-white my-1 px-1" href="{{music.youtubeURL}}" target="_blank">YouTube</a>
+                </div>
+                <div class="row border-top w-100 mx-auto"></div>
+                <div class="row mt-1">
+                    <div class="col-12">
+                        <span class="subscription-service">配信サービス</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="me-0 text-start ">
+                            <a class="btn button-link btn-youtube text-white my-1 px-1 py-0 py-md-1 me-1 me-md-2" href="{{this.music.youtubeURL}}" target="_blank">
+                                <span class="align-middle">YouTube<i class="bi bi-box-arrow-up-right ms-1"></i></span>
+                            </a>
+                            <a class="btn button-link btn-spotify text-dark fw-bold my-1 px-1 py-0 py-md-1 me-1 me-md-2" href="{{this.music.spotifyURL}}" target="_blank">
+                                <span class="align-middle">Spotify<i class="bi bi-box-arrow-up-right  ms-1"></i></span>
+                            </a>
+                            <a class="btn button-link two-row btn-apple-music text-white my-1 px-1 py-0 py-md-1 me-1 me-md-2 bg-gradient" href="{{'https://music.apple.com/jp/search?term=' + this.music.searchText.replace(' ','%20')}}" target="_blank">
+                                <span class="align-middle">Apple&nbsp;Music<i class="bi bi-search ms-1"></i></span>
+                            </a>
+                            <a class="btn button-link two-row btn-amazon-music text-dark fw-bold  my-1 px-1 py-0 py-md-1 me-1 me-md-2" href="{{'https://music.amazon.co.jp/search/' + this.music.searchText.replace(' ','+')}}" target="_blank">
+                                <span class="align-middle">amazon&nbsp;Music<i class="bi bi-search ms-1"></i></span>
+                            </a>
+                            <a class="btn button-link two-row btn-line-music text-white fw-bold my-1 px-1 py-0 py-md-1" href="{{'https://music.line.me/webapp/search?query=' + this.music.searchText.replace(' ','%20')}}" target="_blank">
+                                <span class="align-middle">LINE&nbsp;MUSIC<i class="bi bi-search ms-1"></i></span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <span class="row border-top"></span>
+                <span class="row border-top w-100 mx-auto"></span>
                 <div class="row py-1">
                     <div (click)="this.clickVocalListPullDown($event,music)">
                         <i *ngIf="!music['vocalShowState']" class="bi bi-chevron-right"></i>

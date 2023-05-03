@@ -1,5 +1,11 @@
 <div class="m-auto pt-4">
-    <h5 class="border-bottom border-3 border-primary pb-1">アイドルマスターミリオンライブ! 楽曲リンク</h5>
+    <div class="d-flex flex-row border-bottom border-3 border-primary p-0 m-0">
+        <h5 class="">アイドルマスターミリオンライブ! 楽曲リンク</h5>
+    </div>
+    <div class="d-flex flex-row p-0 m-0">
+        <a class="ms-auto align-bottom mt-auto link-dark text-decoration-none" 
+        [routerLink]="['/about']"><span><i class="bi bi-question-circle me-1"></i>このサイトについて</span></a>
+    </div>
     <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" class="w-100"
     [selectedIndex]="this.tabIndexState"
     (selectedTabChange)="changeTab($event)">

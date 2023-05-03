@@ -1,7 +1,3 @@
-.album-list{
-    min-width: 320px;
-}
-
 .music-name {
     font-size: larger;
 }
@@ -14,4 +10,27 @@ img.idol-img {
     width:10px;
     border-top-left-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem
+}
+
+.album-name {
+    font-size: 20px;
+}
+
+span.subscription-service{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+@media screen and (max-width: 767px) {
+    .button-link{
+        height: 26px;
+        font-size: 12px;
+    }
+    .album-name {
+        font-size: 16px;
+    }
+    span.subscription-service{
+        font-size: 14px;
+        color: #4d4d4d;
+    }
 }

@@ -15,13 +15,5 @@ export class BodyComponent implements OnInit {
     ) { }
 
   ngOnInit() {
-    this.route.params.subscribe((params) => {
-      /*
-      const idolMap:any = this.idolservice.getIdolMapKeyId();
-      const idolId:string = params['idolId'];
-      if(!(idolId in idolMap)){
-        this.router.navigate(["/"]);
-      }*/
-    });
   }
 }

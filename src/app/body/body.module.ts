@@ -9,6 +9,7 @@ import { FooterComponent } from '../footer/footer.component';
 import { CdSeriesListModule } from '../cd-series-list/cd-series-list.module';
 import { AlbumListModule } from '../album-list/album-list.module';
 import { IdolMusicListModule } from '../idol-music-list/idol-music-list.module';
+import { AboutSiteModule } from '../about-site/about-site.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { IdolMusicListModule } from '../idol-music-list/idol-music-list.module';
     CommonModule,
     BodyRoutingModule,
     MatToolbarModule,
+    AboutSiteModule,
     CdSeriesListModule,
     AlbumListModule,
     IdolMusicListModule
