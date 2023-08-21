@@ -21,6 +21,7 @@ $custom-colors:(
 
     "primary": rgb(10, 31, 90),
     "custom-white": rgb(255, 255, 255),
+    "line-001": rgb(201, 201, 201),
 
     "ltp": pink,
     "lth":orange,
@@ -102,6 +103,16 @@ $custom-colors:(
     "idol-201": #e6f9e5,
     "idol-202": #512aa3,
 );
+
+@each $color, $value in $custom-colors {
+  $custom-colors : map-merge($custom-colors,
+    (
+      "#{$color}-contrast" : color-contrast($value),
+      "#{$color}-tint-01" : saturate(tint-color($value,55%),5%),
+      "#{$color}-tint-02" : saturate(tint-color($value,90%),5%)
+     ) 
+  );
+}
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 

@@ -5,28 +5,28 @@
         </div>
     </div>
     <div class="album-list my-2" *ngFor="let album of this.albumList">
-        <div class="idol-title d-flex flex-row px-0 pt-2 pb-0 m-0 border-bottom border-3 border-primary">
+        <div class="idol-title d-flex flex-row px-2 pt-2 pb-0 m-0 bg-primary-tint-01">
             <div class="ms-0 ps-0 my-auto">
-                <span class="m-0 album-name fw-bold">{{album.albumName}}</span>
-                <p class="p-0 m-0">{{album.subName}}</p>
+                <span class="m-0 album-name fw-bold text-primary-contrast">{{album.albumName}}</span>
+                <p class="p-0 m-0 text-primary-contrast">{{album.subName}}</p>
             </div>
             <a class="text-dark my-1 ms-2 px-1 me-2 " href="https://www.google.co.jp/search?q={{album.albumName}}" target="_blank">
-                <i class="bi bi-search"></i>
+                <i class="bi bi-search text-primary-contrast"></i>
             </a>
         </div>
-        <div class="border shadow-sm bg-white border-1 my-2 px-2" *ngFor="let music of albumMusicMap[album.id.toString()]">
-            <div class="">
-                <div class="row">
-                    <div class="col-12 my-auto py-2">
-                        <span class="music-name me-2 fw-bolder">{{music.trackNum}}.</span>
-                        <span class="music-name fw-bolder">{{music.musicName}}</span>
-                        <a class="text-dark py-0 ms-2" href="https://www.google.co.jp/search?q={{this.music.musicName}}" target="_blank">
-                            <i class="bi bi-search"></i>
-                        </a>
-                        <div class="sub-music-name">{{this.music.subMusicName}}</div>
-                    </div>
+        <div class="border shadow-sm bg-white border-1 my-2 border-line-001" *ngFor="let music of albumMusicMap[album.id.toString()]">
+            <div class="row w-100 mx-auto">
+                <div class="col-12 w-100 my-auto py-2 px-2 border-bottom border-1 border-line-001 bg-primary-tint-02">
+                    <span class="music-name me-2 fw-bolder">{{music.trackNum}}.</span>
+                    <span class="music-name fw-bolder">{{music.musicName}}</span>
+                    <a class="text-dark py-0 ms-2" href="https://www.google.co.jp/search?q={{this.music.musicName}}" target="_blank">
+                        <i class="bi bi-search"></i>
+                    </a>
+                    <div class="sub-music-name">{{this.music.subMusicName}}</div>
                 </div>
-                <div class="row border-top w-100 mx-auto"></div>
+            </div>
+            <div class="px-2">
+                <div class="row w-100 mx-auto"></div>
                 <div class="row mt-1">
                     <div class="col-12">
                         <span class="subscription-service">配信サービス</span>
@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <span class="row border-top w-100 mx-auto"></span>
+                <span class="row border-top w-100 mx-auto border-line-001"></span>
                 <div class="row py-1">
                     <div (click)="this.clickVocalListPullDown($event,music)">
                         <i *ngIf="!music['vocalShowState']" class="bi bi-chevron-right"></i>
