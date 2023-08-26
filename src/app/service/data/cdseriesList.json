@@ -154,6 +154,17 @@
         "seriesIconPath": "series-other.svg"
     },
     {
+        "id": 19,
+        "sortId": 19,
+        "shortName": "LTC",
+        "displayName": "765PRO LIVE THE@TER COLLECTION",
+        "displayDescription": "「765プロ」のメンバーによるソロ曲を収録したCD",
+        "fullName": "THE IDOLM@STER 765PRO LIVE THE@TER COLLECTION",
+        "path": "ltc",
+        "seriesClass": "series-ltc",
+        "seriesIconPath": "series-ltc.svg"
+    },
+    {
         "id": 20,
         "sortId": 20,
         "shortName": "単体CD",
@@ -174,5 +185,16 @@
         "path": "miliradi",
         "seriesClass": "",
         "seriesIconPath": ""
+    },
+    {
+        "id": 22,
+        "sortId": 22,
+        "shortName": "グッドサイン",
+        "displayName": "グッドサイン",
+        "displayDescription": "2023/07/26発売の6周年楽曲CD",
+        "fullName": "THE IDOLM@STER MILLION LIVE!「グッドサイン」",
+        "path": "goodsign",
+        "seriesClass": "series-goodsign",
+        "seriesIconPath": "series-goodsign"
     }
 ]

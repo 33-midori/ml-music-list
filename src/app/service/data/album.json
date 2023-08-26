@@ -1008,15 +1008,6 @@
         "unitName": ""
     },
     {
-        "id": 113,
-        "cdseriesPath": "not-series",
-        "shortName": "LTC01",
-        "albumName": "765PRO LIVE THE@TER COLLECTION Vol.1",
-        "fullName": "THE IDOLM@STER 765PRO LIVE THE@TER COLLECTION Vol.1",
-        "subName": "",
-        "unitName": ""
-    },
-    {
         "id": 114,
         "cdseriesPath": "other",
         "shortName": "Blooming Clover",
@@ -1040,6 +1031,33 @@
         "shortName": "ミリラジ04",
         "albumName": "SECOND LIVINGROOM",
         "fullName": "SECOND LIVINGROOM",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 117,
+        "cdseriesPath": "mtv",
+        "shortName": "MTV03",
+        "albumName": "MILLION THE@TER VARIETY 03",
+        "fullName": "THE IDOLM@STER MILLION THE@TER VARIETY 03",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 118,
+        "cdseriesPath": "ltc",
+        "shortName": "LTC02",
+        "albumName": "765PRO LIVE THE@TER COLLECTION Vol.2",
+        "fullName": "THE IDOLM@STER 765PRO LIVE THE@TER COLLECTION Vol.2",
+        "subName": "",
+        "unitName": ""
+    },
+    {
+        "id": 119,
+        "cdseriesPath": "goodsign",
+        "shortName": "GS01",
+        "albumName": "グッドサイン",
+        "fullName": "THE IDOLM@STER MILLION LIVE!「グッドサイン」",
         "subName": "",
         "unitName": ""
     }
