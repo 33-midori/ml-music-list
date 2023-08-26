@@ -45,7 +45,16 @@
                 <span>ソースコード：<a href="https://github.com/33-midori/ml-music-list">https://github.com/33-midori/ml-music-list</a></span>
             </li>
             <li>
-                <span>アイドルのアイコン：<a href="https://github.com/33-midori/ml-music-list/tree/main/src/assets/image/idol">https://github.com/33-midori/ml-music-list/tree/main/src/assets/image/idol</a></span><br>                
+                <span>アイドルのアイコン</span><br>
+                <div class="border border-1 py-1">
+                    <div class="row">
+                        <div class="col-sm-auto">
+                            <ng-container *ngFor="let idol_id of this.idolIdList">
+                                <img src="assets/image/idol/idol_{{('000' + idol_id).slice(-3)}}.png" class="idol-img">
+                            </ng-container>
+                        </div>
+                    </div>
+                </div>
             </li>
         </ul>
     </div>
